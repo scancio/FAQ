@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Simple FAQ | devChallenges.io</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      body {
+        margin: 0; /* Elimina los márgenes predeterminados */
+        display: block; /* Asegura que el body sea un contenedor de bloque */
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: 30px;
+        background-color: #F8FAFC;
+      }
+
+    .centered {
+      position: absolute;
+      height: 100vh;/* Asegura que el body ocupe toda la altura de la ventana */
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%)
+      }
+
+      li{
+        margin-left: 20px;
+      }
+
+      summary{
+        font-weight: bold;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none
+      }
+
+/*       @media screen and (min-width: 720px) {
+        body{font-size: 20px ;}
+        .logo{
+          width: 20px;
+          height: 10px
+        }
+    } */
+    </style>
+  </head>
+
+  <body>
+    <div class="centered">
+    <header>
+        <h1>Frequently Asked Questions</h1>
+        <p style="text-align: center; padding-bottom:20px;">Browse through the most frequently asked questions</p>
+    </header>
+
+    <main>
+        <article>
+          <details open>
+            <summary style="list-style: none;cursor: pointer;">How can I track my order??</summary>
+            <ol type="1">You can track your order using the following steps:
+              <li>Go to the Order
+                <a href="https://www.devchallenges.io?ref=challenge" target="_blank" style="text-decoration: none;">Tracking page</a>.
+              </li>
+              <li>Enter your order number and email address.</li>
+              <li>Click on the Track Order button to view the current status of your shipment.</li>
+            </ol>
+            <p>If you encounter any issues, please visit our <a href="#" style="text-decoration: none;">Help Center.</a> </p>
+          </details>
+        </article>
+        <hr>
+        <article>
+          <details open>
+            <summary style="list-style: none;cursor: pointer;">What is your return policy?  </summary>
+            <ul>We offer a 30-day return policy on most items. Here are some key points:
+              <li><b>Items must be in original condition:</b> Unworn, unused, and unwashed.</li>  
+              <li><b>Include original packaging and tags:</b> All items should be returned with their original packaging and tags.</li>
+              <li><strong>Proof of purchase:</strong> A receipt or proof of purchase is required.  </li>
+            </ul>
+            <p>For more detailed information, read our full <a href="#" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">Return Policy.</a> </p>
+          </details>
+        </article>
+    </main>
+    
+    <footer class="author-info">
+      <img class="logo" src="resources/devchallenges-logo.svg" alt="Main Logo">
+      <br><p>devChallenges</p>
+      Coded by <a href="#">Shakira</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a>.
+    </footer>
+  </div>
+  </body>
+</html>
